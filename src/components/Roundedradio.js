@@ -7,7 +7,7 @@ const Roundedradio=(props)=>{
     
     return(
         <Container>
-           <div className='custom-radio-button' onClick={()=> {props.onChange(props.value)}}>
+           <div className='custom-radio-button' onClick={()=> {props.onChange(props.value); props.setAnswer(props.answer)}}>
                 <div className={`radio-outer-circle ${props.value!==props.selected && 'unselected'}`}>
                     <div className={`radio-inner-circle ${props.value!==props.selected && 'unselected-circle'}`}></div>
                 </div>

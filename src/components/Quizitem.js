@@ -9,8 +9,8 @@ const Quizitem=(props)=>{
     return(
         <div className='w-100 rounded p-4 border border-secondary text-light bg-dark mb-2'>
             <h4>{props.question}</h4>
-                <Answer answer={props.answers} key={Math.random()*1000} setSelected={setSelectedAns} selected={selectedAns}/>
-                
+            <Answer answer={props.answers} key={Math.random()*1000} setSelectedAns={setSelectedAns} selectedAnswer={selectedAns}/>
+            {console.log(selectedAns)}
         </div>
         
     );

@@ -6,16 +6,17 @@ import Roundedradio from './Roundedradio';
 const Answer=(props)=>{
 
     const [selectedRadio,setSelectedRadio]=useState(0);
+    const [Answer,setAnswer]=useState('');
     
     return(
         <Container>
-            <Roundedradio value={1} selected={selectedRadio} onChange={setSelectedRadio} answer={props.answer[0]} key={0}/>
+            <Roundedradio value={1} selected={selectedRadio} onChange={(radio)=>{setSelectedRadio(radio);props.setSelectedAns(Answer)}} answer={props.answer[0]} key={0} setAnswer={setAnswer} />
 
-            <Roundedradio value={2} selected={selectedRadio} onChange={setSelectedRadio} answer={props.answer[1]} key={1}/>
+            <Roundedradio value={2} selected={selectedRadio} onChange={setSelectedRadio} answer={props.answer[1]} key={1} setAnswer={setAnswer} />
 
-            <Roundedradio value={3}  selected={selectedRadio} onChange={setSelectedRadio} answer={props.answer[2]} key={2}  />
+            <Roundedradio value={3}  selected={selectedRadio} onChange={setSelectedRadio} answer={props.answer[2]} key={2} setAnswer={setAnswer}/>
 
-            <Roundedradio value={4} selected={selectedRadio} onChange={setSelectedRadio} answer={props.answer[3]} key={3} />
+            <Roundedradio value={4} selected={selectedRadio} onChange={setSelectedRadio} answer={props.answer[3]} key={3} setAnswer={setAnswer}/>
             
         </Container>
     );

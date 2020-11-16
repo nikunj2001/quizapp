@@ -43,7 +43,7 @@ class App extends Component{
 
         </Row>
         <Row className='justify-content-left m-3 rounded border border-dark  p-2'>
-          {this.state.qBank.length > 0 && this.state.responses<5 && this.state.qBank.map(({question,answers,correct,qid}) => <Quizitem question={question} key={qid} answers={answers} selected={(answer)=>this.checkanswer(answer,correct)}/>)}
+          {this.state.qBank.length > 0 && this.state.responses<5 && this.state.qBank.map(({question,answers,correct,qid}) => <Quizitem question={question} key={qid} answers={answers} selectedAnswer={(answer)=>this.checkanswer(answer,correct)}/>)}
             
         </Row>
         <Row className="justify-content-center m-3 p-4 w-100">
