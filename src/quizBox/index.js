@@ -20,14 +20,14 @@ const qbox=[
     {
         question:"Who is created C?",
         answers:["Alen Turin","Steve Jobs","Denis Ritchie","Bill Gates"],
-        correct:"Deins Ritchie",
+        correct:"Denis Ritchie",
         qid:'000004'
     },
     {
         question:"Who is created C++?",
         answers:["Benjomin Franclin","Bjarne Stroustrup","Denis Ritchie","Bill Gates"],
-        correct:"Deins Ritchie",
-        qid:'000004'
+        correct:"Bjarne Stroustrup",
+        qid:'000005'
     }
     
 ];
