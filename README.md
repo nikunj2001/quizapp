@@ -1,5 +1,5 @@
 This is a simple quiz app create with react js.\
-**used technologies:**\
+**used technologies:**
 - react-bootstrap
 - react js
 
