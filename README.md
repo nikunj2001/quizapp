@@ -1,8 +1,8 @@
 This is a simple quiz app create with react js.\
-used technologies:
-    react-bootstrap
-    react js
-    
+**used technologies:**
+___*react-bootstrap
+___*react js
+
 ## Available Scripts
 
 In the project directory, you can run:
