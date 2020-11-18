@@ -1,4 +1,4 @@
-This is a simple quiz app create with react js.
+This is a simple quiz app create with react js.\
 used technologies:
     react-bootstrap
     react js
