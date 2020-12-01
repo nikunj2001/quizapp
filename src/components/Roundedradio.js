@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container} from 'react-bootstrap';
 import Proptypes from 'prop-types';
-// import './customCheckbox.css';
+import './customCheckbox.css';
 
 const Roundedradio=(props)=>{
     
